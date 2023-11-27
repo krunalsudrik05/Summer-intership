@@ -1,0 +1,213 @@
+*{
+    font-family: sans-serif,cursive;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+    text-transform: capitalize;
+    text-decoration: none;
+}
+html{
+    font-size: 70%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}  
+        
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding: 25px 7%;
+    box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: whitesmoke;
+}
+.logo img{
+    border-radius: 50px;
+}
+
+.navbar a{
+    font-size: 19px;
+    margin-left: 16px;
+    padding: 16px;
+    color: black;
+    
+    
+}
+.navbar a:hover{
+    color:rgb(14, 1, 255);
+    
+}
+.search input[type=text]{
+    width: 300px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, .26) 0px 3px 8px;
+
+}
+.search button{
+    border-radius: 10px;
+    height: 30px;
+}
+.about-us{
+    padding: 2rem 7%;
+
+}
+.about-us h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+.about-us h1 span{
+    color:black;
+}
+.main-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.main-about .inner-about{
+    flex: 1 1 200px;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.inner-icons img{
+    width: 200px;
+    padding: 1.5rem 0;
+    
+}
+.inner-about h2{
+    font-size: 2rem;
+    color: black;
+    padding: .5rem;
+}
+.inner-about h2 span{
+    color: black;
+}
+
+.inner-about p{
+    color:black;
+    font-size: 1.5rem;
+    padding: 0;
+    text-align: left;
+}
+  /* Slideshow container */
+  .slideshow-container {
+    width: 1500px;
+    position: relative;
+    margin: auto;
+  }
+  
+
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  /* Next and previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next" button to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 25%;
+  }
+
+  /* Caption text */
+  .text {
+    color: #000000;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #000000;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    text-align: center;
+  }
+  .footer-content h3{
+    font-size: 33px;
+    text-transform: capitalize;
+    line-height: 50px;
+    
+
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px;
+    line-height: 28px;
+    font-size: 14px;
+    color: black;
+}
+
